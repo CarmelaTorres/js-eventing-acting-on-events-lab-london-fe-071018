@@ -1,8 +1,8 @@
 var dodger = document.getElementById('dodger')
 
 function moveDodgerRight() {
-  var leftNumbers = dodger.style.right.replace('px', '')
-  var left = parseInt(leftNumbers, 10)
+  var rightNumbers = dodger.style.right.replace('px', '')
+  var right = parseInt(rightNumbers, 10)
    if (left > 0) {
     dodger.style.left = `${right - 1}px`
   }
