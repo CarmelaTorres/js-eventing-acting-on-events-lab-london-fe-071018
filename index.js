@@ -1,5 +1,7 @@
 var dodger = document.getElementById('dodger')
 
+dodger.style.backgroundColor = 'pink';
+
 function moveDodgerRight() {
   var rightNumbers = dodger.style.right.replace('px', '')
   var right = parseInt(rightNumbers, 10)
